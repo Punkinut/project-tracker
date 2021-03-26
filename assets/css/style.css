@@ -1,0 +1,47 @@
+:root {
+    --gray: rgb(247, 247, 247);
+    --black: #333333;
+}
+
+
+::selection {
+    background: rgb(233, 233, 233);
+  }
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: var(--black);
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+   }
+
+.gray {
+    background-color: var(--gray);
+}
+
+.no-border {
+    border: none;
+}
+
+.white {
+    background-color: white;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.line-spacing {
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+    .bye {
+        display: none;
+    }
+}
